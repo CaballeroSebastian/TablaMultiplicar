@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <img src="img/image.png" alt="Imagen" class="center-image">
+            <form action="#" id="formulario">
+                <label for="numero">Número:</label>
+                <input class="text" type="text" id="numero" name="numero" required pattern="\d*"><br><br>
+
+                <label for="multiplicador">Multiplicador:</label>
+                <input class="text" type="text" id="multiplicador" name="multiplicador" required pattern="\d*"><br><br>
+
+                <input class="text" type="submit" value="Enviar">
+            </form>
+        </div>
+
+        <div class="result-container" id="tabla-multiplicar">
+        </div>
+    </div>
+
+    <script src="multi.js"></script>
+</body>
+</html>
